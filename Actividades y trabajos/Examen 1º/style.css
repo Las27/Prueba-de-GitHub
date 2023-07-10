@@ -1,0 +1,113 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: rgb(255, 122, 122);
+    
+    height: 70px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#imagen-1 {
+    height: 150px;
+
+    cursor: pointer;
+}
+
+#imagen-2 {
+    height: 150px;
+}
+
+#imagen-3 {
+    height: 150px;
+}
+
+article div {
+    margin: 10px;
+
+    padding: 30px;
+
+    background-color: rgb(255, 196, 196);
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* Listas de autos */
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+#player-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    padding: 2m;
+    border-radius: 0.3em;
+    margin-bottom: 10px;
+    background-color: #f5fffcda;
+}
+
+button {
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: inherit;
+    max-width: 25rem;
+    gap: 0.3em;
+    background-color: #bacec870;
+    padding: 1em;
+    border-radius: 0.3em;
+    margin-top: 2em;
+}
+
+section {
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://necocheadigital.com/wp-content/uploads/2023/03/los-autos-de-la-scaloneta-1477237.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+    h1 {
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    li {
+        padding: 2m;
+        border-radius: 0.3em;
+        margin-bottom: 10px;
+        background-color: #f5fffcda;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: inherit;
+        max-width: 25rem;
+        gap: 0.3em;
+        background-color: #bacec870;
+        padding: 1em;
+        border-radius: 0.3em;
+        margin-top: 2em;
+    }
+    

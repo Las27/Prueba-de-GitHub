@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul class="header">
+                <li class="header" id="inicio"><a href="file:///C:/Users/sanav/OneDrive/Escritorio/UTN/Actividades%20y%20trabajos/Examen%201%C2%BA/presentacion/index.html">Inicio</a></li>
+                <li class="header" id="WhatsAppp"><a href="https://api.whatsapp.com/send?phone=542235926528&text=ME%20CONTACTO%20CONTIGO%20PARA%20COMPRAR%20AUTITOS">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article id="article">
+        <div class="auto-1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2018_Tesla_Model_S_75D.jpg/1200px-2018_Tesla_Model_S_75D.jpg" alt="" class="auto-1" id="imagen-1">
+            
+                <div class="texto" id="precio">
+                    <h2>$2.000.000</h2>
+                </div>
+                    <div class="texto" id="nombre">
+                        <h4>Tesla Model S</h4>
+                    </div>
+                        <div class="texto" id="ciudad">
+                            <h5>Mar del Plata</h5>
+                        </div>
+        </div>
+
+        <div class="auto-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/2019_Tesla_Model_3_Performance_AWD_Front.jpg" alt="" class="auto-2" id="imagen-2">
+            
+                <div class="texto" id="precio">
+                    <h2>$2.000.000</h2>
+                </div>
+                    <div class="texto" id="nombre">
+                        <h4>Tesla Model 3</h4>
+                    </div>
+                        <div class="texto" id="ciudad">
+                            <h5>Mar del Plata</h5>
+                        </div>
+        </div>
+        
+        <div class="auto-3">
+            <img src="https://www.caroom.fr/guide/wp-content/uploads/2022/02/quel-tesla-model-x-choisir.jpg" alt="" class="auto-3" id="imagen-3">
+            
+                <div class="texto" id="precio">
+                    <h2>$2.000.000</h2>
+                </div>
+                    <div class="texto" id="nombre">
+                        <h4>Tesla Model X</h4>
+                    </div>
+                        <div class="texto" id="ciudad">
+                            <h5>Mar del Plata</h5>
+                        </div>
+        </div>
+    </article>
+
+    <!--Lista para elegir auto-->
+
+    <section>
+        <form id="player-form">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" required>
+
+            <select name="" id="autos" required>
+                <option value="Tesla Model S">Tesla Model S</option>
+                <option value="Tesla Model 3">Tesla Model 3</option>
+                <option value="Tesla Model X">Tesla Model X</option>
+            </select>
+            <input type="submit" name="Agregar" id="btn btn-primary">
+        </form>
+        <ul id="player-list"></ul>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

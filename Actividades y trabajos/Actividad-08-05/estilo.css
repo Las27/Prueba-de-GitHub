@@ -1,0 +1,13 @@
+li {
+    list-style: none;
+}
+
+p {
+    cursor: pointer;
+}
+
+
+
+style {
+    .oculto {display: none;}
+}

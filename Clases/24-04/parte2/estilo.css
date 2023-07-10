@@ -1,0 +1,17 @@
+/* .ventana-mensaje {
+    display: none;
+}
+
+.visible {
+    display: block;
+    border: 1px solid red;
+} */
+
+.menu {
+    transform: translateX(-100%);
+    transition: all 1s ease-in-out; /* "ease" es el tipo de animación, sus complementos son In y Out */
+}
+
+.visible {
+    transform: translateX(0);
+}

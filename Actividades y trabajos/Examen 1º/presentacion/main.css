@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/D7MOECRNNBCRZIED5DEIO42PAQ.jpg);
+    font-family: system-ui;
+}
+
+button {
+    align-items: center;
+    border-radius: 5px;
+    background: rgb(255, 196, 196);
+    display: flex;
+    flex-direction: column;
+    width: min(90vw, 360px);
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+div {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+h1 {
+    color: rgb(255, 122, 122);
+}

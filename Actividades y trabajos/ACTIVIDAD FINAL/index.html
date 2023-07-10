@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+<!--Este link en necesario para la lupa en búsqueda-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    
+<!--Link para flecha (No está funcionando)-->
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Autos-Usados.com</div>
+        <div class="nav-buttons">
+          <button class="right">Inicio</button>
+          <button class="right" onclick="toggleForm()">Registro</button>
+          <button class="right">Ayuda</button>
+        </div>
+    </header>
+
+<!--BOTON PARA IR ARRIBA (No está funcionando)-->
+
+    <span class="ir-arriba icon-arrow-up"></span>
+
+    <section>
+        <div class="inicio">
+            <main>
+            <h1>Autos Usados</h1>
+            <h3>Somos una empresa que te ayuda a encontrar tu auto ideal al mejor precio y calidad</h3>
+            </main>
+        </div>
+    </section>
+
+    <div class="inicio-video">
+        <video src="video.mp4" autoplay loop muted>
+
+        </video>
+    </div>
+
+    <article>
+
+        <div class="container">
+            <input type="text" placeholder="Buscar">
+            <div class="btn">
+                <i class="fa fa-search"> </i>
+            </div>
+        </div>
+<!--
+        <p>
+
+            Buscar: <input type="search" name="busqueda" placeholder="Buscar">
+        
+            <input type="submit" value="Buscar">
+        
+        </p>
+    -->
+            <div class="card-holder">
+                <div class="card">
+                    <img src="https://www.chevrolet.com.ar/content/dam/chevrolet/mercosur/argentina/espanol/index/cars/cars-subcontent/04-images/chevrolet-autos-nuevo-onix-v1.png?imwidth=960" alt="" id="auto-gris-ch">
+                        <h5>Card title goes here</h5>
+                        <p>Your card description goes here. Consectetur adipisicing elitllum nulla odit nihil sit sequi quia eligendi corporis.</p>
+                        <a href="#">Card button</a>
+            </div>
+                </div>
+        <div class="card-holder">
+            <div class="card">
+                <img src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/s/RT_V_691301e355b144ab9108dc446f0a4ba1.jpg" alt="">
+                    <h5>Card title goes here</h5>
+                    <p>Your card description goes here. Consectetur adipisicing elitllum nulla odit nihil sit sequi quia eligendi corporis.</p>
+                     <a href="#">Card button</a>
+            </div>
+        </div>
+        <div class="card-holder">
+            <div class="card">
+                <img src="https://www.chevrolet.com.ar/content/dam/chevrolet/mercosur/argentina/espanol/index/performance/2018-camaro-conversivel/colorizer/01-images/novo-camaro-conversivel-2018-amarelo-mov-intro-01.png?imwidth=960" alt="">
+                <h5>Card title goes here</h5>
+                    <p>Your card description goes here. Consectetur adipisicing elitllum nulla odit nihil sit sequi quia eligendi corporis.</p>
+                     <a href="#">Card button</a>
+            </div>
+        </div>
+        <div class="card-holder">
+            <div class="card">
+                <img src="https://media.toyota.com.ar/210b27a2-af37-499d-ab60-81e8c3eae1e1.png" alt="">
+                <h5>Card title goes here</h5>
+                    <p>Your card description goes here. Consectetur adipisicing elitllum nulla odit nihil sit sequi quia eligendi corporis.</p>
+                     <a href="#">Card button</a>
+            </div>
+        </div>
+        <div class="card-holder">
+            <div class="card">
+                <img src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/m/RT_V_396ab69f90b148ababd5c1e29f99f3ce.jpg" alt="">
+                <h5>Card title goes here</h5>
+                    <p>Your card description goes here. Consectetur adipisicing elitllum nulla odit nihil sit sequi quia eligendi corporis.</p>
+                     <a href="#">Card button</a>
+            </div>
+        </div>
+        <div class="card-holder">
+            <div class="card">
+                <img src="https://www.toyota.com.ec//admin/sites/default/files/2022-07/CHR_0.png" alt="">
+                <h5>Card title goes here</h5>
+                    <p>Your card description goes here. Consectetur adipisicing elitllum nulla odit nihil sit sequi quia eligendi corporis.</p>
+                     <a href="#">Card button</a>
+            </div>
+        </div>
+        <div class="card-holder">
+            <div class="card">
+                <img src="https://www.martinautos.com.ar/web/img/files/modelosautos/photo/242c31b7-9ccd-4491-af03-77d9b7654cc9/territory-transparente.png" alt="">
+                <h5>Card title goes here</h5>
+                    <p>Your card description goes here. Consectetur adipisicing elitllum nulla odit nihil sit sequi quia eligendi corporis.</p>
+                     <a href="#">Card button</a>
+            </div>
+        </div>
+        <div class="card-holder">
+            <div class="card">
+                <img src="https://ahora-84.org/wp-content/uploads/2021/07/Ford-Mondeo-Naftero-ya-no-se-vende-Argentina-1024x597.jpg" alt="">
+                <h5>Card title goes here</h5>
+                    <p>Your card description goes here. Consectetur adipisicing elitllum nulla odit nihil sit sequi quia eligendi corporis.</p>
+                     <a href="#">Card button</a>
+            </div>
+        </div>
+        <div class="card-holder">
+            <div class="card">
+                <img src="https://www.lavoz.com.ar/resizer/V3qWpR8nKCYRal5cYaffIs3Krbk=/980x640/smart/filters:quality(75):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/QBYR3KGQYBG3NADYQFVGECHBGU.jpg" alt="">
+                <h5>Card title goes here</h5>
+                    <p>Your card description goes here. Consectetur adipisicing elitllum nulla odit nihil sit sequi quia eligendi corporis.</p>
+                     <a href="#">Card button</a>
+            </div>
+        </div>
+            
+    </article>
+</body>
+</html>
